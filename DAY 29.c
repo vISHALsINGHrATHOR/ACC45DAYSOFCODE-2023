@@ -2,13 +2,13 @@
 int main(){
     int a,b,c,d;
     scanf("%d %d %d %d",&a,&b,&c,&d);
-    if(a+b>=d){
+    if((a+b)>=d){
         printf("YES");
     }
-    if(b+c>=d){
+    if((b+c)>=d){
         printf("YES");
     }
-    if(c+a>=d){
+    if((c+a)>=d){
         printf("YES");
     }
     else{
